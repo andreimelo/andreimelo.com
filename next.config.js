@@ -18,5 +18,6 @@ module.exports = withCSS({
   devIndicators : {
 	autoPrerender : false,
 },
-cssModules:true
+cssModules:true,
+target: 'serverless'
 })
