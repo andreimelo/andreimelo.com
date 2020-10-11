@@ -2,7 +2,8 @@
 .home_wrapper{
     width: auto;
     margin: 110px 0px 50px 0px;
-    height: calc(-100px + 80vh);
+    /* height: calc(-100px + 80vh); */
+    height: auto;
     display: flex;
     -moz-box-align: center;
     align-items: center;
@@ -13,3 +14,13 @@
 .coding_isometric{
     width: 55vh;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .home_wrapper {
+        -moz-box-pack: justify;
+        justify-content: space-between;
+        flex-direction: column;
+        height: -moz-fit-content;
+    }
+  }

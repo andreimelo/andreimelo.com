@@ -27,3 +27,9 @@
       border-color: transparent;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .typewriter_desc {
+     margin-bottom: 80px;
+    }
+  }
