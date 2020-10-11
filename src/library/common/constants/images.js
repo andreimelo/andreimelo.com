@@ -4,7 +4,6 @@ import linkedIn from '../../../resources/images/linkedin_io.svg';
 import twitter from '../../../resources/images/twitter_io.svg';
 import myEmoticon from '../../../resources/images/my_ios_emoticon.jpg';
 import codingIso from '../../../resources/images/coding_iso.svg';
-import unsplashBag from '../../../resources/images/unsplash_bag.png';
 
 export const IMAGES = {
     MY_LOGO: myLogo,
@@ -13,5 +12,5 @@ export const IMAGES = {
     TWITTER: twitter,
     IOS_EMOTICON : myEmoticon,
     CODING_ISO: codingIso,
-    UNSPLASH_BAG: unsplashBag
+    UNSPLASH_BAG: '/images/unsplash_bag.png'
 };
