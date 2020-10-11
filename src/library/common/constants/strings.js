@@ -1,4 +1,3 @@
-import AboutMe from "../components/AboutMe";
 
 export const STRINGS = {
 	 TITLE :'Andrei Melo - Personal Website',
