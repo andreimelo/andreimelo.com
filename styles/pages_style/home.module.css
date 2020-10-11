@@ -1,0 +1,15 @@
+
+.home_wrapper{
+    width: auto;
+    margin: 110px 0px 50px 0px;
+    height: calc(-100px + 80vh);
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+}
+
+.coding_isometric{
+    width: 55vh;
+}
