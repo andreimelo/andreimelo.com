@@ -5,6 +5,7 @@
     <h2 align="center">Andrei Melo</h2>
   </a>
 </p> 
+<p align="center">FrontEnd Web Developer</p>
 
 ![Andrei Melo Site Preview](./src/resources/images/home_io.png)
 
