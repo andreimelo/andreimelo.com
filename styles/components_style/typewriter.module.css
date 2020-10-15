@@ -1,35 +1,35 @@
 .typewriter_title {
-    font-size: var(--font-small);
-    font-weight: var(--font-poppins-400);
+  font-size: var(--font-small);
+  font-weight: var(--font-poppins-400);
 }
 
 .typewriter_name {
-    font-size: var(--font-large);
-    font-weight: var(--font-poppins-800);
+  font-size: var(--font-large);
+  font-weight: var(--font-poppins-800);
 }
 
 .typewriter_desc {
-    font-size: var(--font-medium);
-    font-weight: var(--font-poppins-400);
+  font-size: var(--font-medium);
+  font-weight: var(--font-poppins-400);
 }
 
 .typewriter_wrapper {
-    color: var(--my-primary-color);
+  color: var(--my-primary-color);
 }
 
 #typewriter_cursor {
-    border-right: .1em solid var(--my-primary-color);
-    animation: blink .7s steps(1) infinite;
-  }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
+  border-right: 0.1em solid var(--my-primary-color);
+  animation: blink 0.7s steps(1) infinite;
+}
 
-  @media only screen and (max-width: 768px) {
-    .typewriter_desc {
-     margin-bottom: 80px;
-    }
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .typewriter_desc {
+    margin-bottom: 80px;
+  }
+}
