@@ -1,97 +1,101 @@
 .nav_wrapper {
-    position: fixed;
-    top: 0px;
-    display: flex;
-    -moz-box-align: center;
-    align-items: center;
-    height: 90px;
-    width: 100vw;
-    /* background-color: rgb(248, 248, 248); */
-    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px; */
-    z-index: 1000;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  height: 90px;
+  width: 100vw;
+  /* background-color: rgb(248, 248, 248); */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+  z-index: 1000;
 }
 
 .nav_container {
-    margin: auto;
-    width: 80%;
-    display: flex;
-    -moz-box-pack: justify;
-    justify-content: space-between;
-    -moz-box-align: center;
-    align-items: center;
-    /* border:solid var(--black-color) 3px; */
+  margin: auto;
+  width: 80%;
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+  /* border:solid var(--black-color) 3px; */
 }
 
 .mylogo {
-    float: left;
-    width: 80px;
-    -webkit-animation-name: floating;
-    animation-name: floating;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+  float: left;
+  width: 80px;
+  -webkit-animation-name: floating;
+  animation-name: floating;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
 }
 
-
 .nav_item_container {
-    float: right;
-    /* border:solid var(--black-color) 3px; */
+  float: right;
+  /* border:solid var(--black-color) 3px; */
 }
 
 .nav_item {
-    display: inline-block;
-    margin: 20px;
-    font-size: 18px;
-    color: var(--my-primary-color);
-    cursor: pointer;
-    font-weight: 600;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(65%, transparent), color-stop(0, var(--light-black-color)));
-    background-image: linear-gradient(180deg, transparent 65%, var(--light-black-color) 0);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 0 15%;
-    -webkit-transition: background-size .2s ease;
-    transition: background-size .2s ease;
+  display: inline-block;
+  margin: 20px;
+  font-size: 18px;
+  color: var(--my-primary-color);
+  cursor: pointer;
+  font-weight: 600;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(65%, transparent),
+    color-stop(0, var(--light-black-color))
+  );
+  background-image: linear-gradient(180deg, transparent 65%, var(--light-black-color) 0);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 0 15%;
+  -webkit-transition: background-size 0.2s ease;
+  transition: background-size 0.2s ease;
 }
 
 .nav_item:hover {
-    background-size: 100% 15%
+  background-size: 100% 15%;
 }
 
-
 @-webkit-keyframes floating {
-    0% {
-        -webkit-transform: translate(0);
-        transform: translate(0)
-    }
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
 
-    65% {
-        -webkit-transform: translateY(5px);
-        transform: translateY(5px)
-    }
+  65% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
 
-    to {
-        -webkit-transform: translate(0);
-        transform: translate(0)
-    }
+  to {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
 }
 
 @keyframes floating {
-    0% {
-        -webkit-transform: translate(0);
-        transform: translate(0)
-    }
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
 
-    65% {
-        -webkit-transform: translateY(10px);
-        transform: translateY(10px)
-    }
+  65% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
 
-    to {
-        -webkit-transform: translate(0);
-        transform: translate(0)
-    }
+  to {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
 }

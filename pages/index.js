@@ -7,7 +7,7 @@ import AboutMe from '../src/library/common/components/AboutMe';
 // import Contact from '../src/library/common/components/Contact';
 import Footer from '../src/library/common/components/Footer';
 import { STRINGS } from '../src/library/common/constants/strings';
-import { IMAGES } from '../src/library/common/constants/images'
+import { IMAGES } from '../src/library/common/constants/images';
 
 function IndexPage(){
 	return (
@@ -18,14 +18,14 @@ function IndexPage(){
 				image={IMAGES.UNSPLASH_BAG}
 				description={STRINGS.INTRO2}
 			/>
-			<Navigation logo={IMAGES.MY_LOGO} data={STRINGS.NAVIGATION_DATA}/>
+			<Navigation logo={IMAGES.MY_LOGO} data={STRINGS.NAVIGATION_DATA} />
 			<LayoutProvider>
-				<Home/>
-				<AboutMe/>
+				<Home />
+				<AboutMe />
 				{/* <Projects/>
 				<Contact/> */}
 			</LayoutProvider>
-			<Footer/>
+			<Footer />
 		</React.Fragment>
 	);
 }

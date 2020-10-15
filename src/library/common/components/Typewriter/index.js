@@ -1,8 +1,14 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { typewriter_name, typewriter_title,typewriter_desc,typewriter_wrapper,typewriter_cursor } from '../../../../../styles/components_style/typewriter.module.css';
+import {
+	typewriter_name,
+	typewriter_title,
+	typewriter_desc,
+	typewriter_wrapper,
+	typewriter_cursor,
+} from '../../../../../styles/components_style/typewriter.module.css';
 
-function Typewriter({ title,name,data }){
+function Typewriter({ title, name, data }){
 	const [
 		text,
 		setText,
@@ -20,35 +26,51 @@ function Typewriter({ title,name,data }){
 		setSpeed,
 	] = useState(150);
 
-	useEffect(()=>{
-		setTimeout(()=>handleType(),speed)
-	},[text,isDeleting,loop]);
+	useEffect(
+		() => {
+			setTimeout(() => handleType(), speed);
+		},
+		[
+			text,
+			isDeleting,
+			loop,
+		],
+	);
 
-	 function handleType(){
-		const i =  loop % data.length;
+	function handleType(){
+		const i = loop % data.length;
 		const fullText = data[i];
-		setText(isDeleting? fullText.substring(0,text.length - 1) : fullText.substring(0,text.length + 1));
-		setSpeed(isDeleting? 30:150);
+		setText(
 
-		if(!isDeleting && text === fullText){
-		 setTimeout(()=>setIsDeleting(true),150);
-		} else if (isDeleting && text===''){
+				isDeleting ? fullText.substring(0, text.length - 1) :
+				fullText.substring(0, text.length + 1),
+		);
+		setSpeed(
+
+				isDeleting ? 30 :
+				150,
+		);
+
+		if (!isDeleting && text === fullText) {
+			setTimeout(() => setIsDeleting(true), 150);
+		}
+		else if (isDeleting && text === '') {
 			setIsDeleting(false);
-			setLoop(loop+1);
+			setLoop(loop + 1);
 		}
 	}
-	return(
-	<React.Fragment>
-		<div className={typewriter_wrapper}>
-			<div className={typewriter_title}>{title}</div>
-			<div className={typewriter_name}>{name}</div>
-			<div className={typewriter_desc}>
-				{text}
-				<span id={typewriter_cursor }></span>
+	return (
+		<React.Fragment>
+			<div className={typewriter_wrapper}>
+				<div className={typewriter_title}>{title}</div>
+				<div className={typewriter_name}>{name}</div>
+				<div className={typewriter_desc}>
+					{text}
+					<span id={typewriter_cursor} />
+				</div>
 			</div>
-		</div>
-	</React.Fragment>
-	)
+		</React.Fragment>
+	);
 }
 
 Typewriter.propTypes = {

@@ -1,33 +1,33 @@
 .footer_wrapper {
-    height: 8vh;
-    width: 100%;
-    padding: 10px;
-    /* background:#0d102d; */
+  height: 8vh;
+  width: 100%;
+  padding: 10px;
+  /* background:#0d102d; */
 }
 
 .footer_container {
-    margin: auto;
-    width: 80%;
+  margin: auto;
+  width: 80%;
 }
 
 .item_made {
-    float: left;
+  float: left;
 }
 
 .item_container {
-    float: right;
+  float: right;
 }
 
 .item {
-    display: inline-block;
-    width: 25px;
-    margin: 0px 10px 0px 10px;
-    cursor: pointer;
-    transition: transform .2s;
+  display: inline-block;
+  width: 25px;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
 .item:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 /* .nav_item_container{
