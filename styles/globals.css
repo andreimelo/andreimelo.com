@@ -3,6 +3,7 @@
 :root {
   --my-primary-color: #0d102d;
   --black-color: #000000;
+  --white-color: #ffffff;
   --light-black-color: #3e4054;
   --bg-color: #f7f9f7;
 
@@ -19,7 +20,8 @@
 }
 
 html,
-body {
+body,
+button {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;

@@ -8,7 +8,7 @@ import {
 	typewriter_cursor,
 } from '../../../../../styles/components_style/typewriter.module.css';
 
-function Typewriter({ title, name, data }){
+function Typewriter({ title, name, data, children }){
 	const [
 		text,
 		setText,
@@ -68,13 +68,17 @@ function Typewriter({ title, name, data }){
 					{text}
 					<span id={typewriter_cursor} />
 				</div>
+				{children}
 			</div>
 		</React.Fragment>
 	);
 }
 
 Typewriter.propTypes = {
-	data : PropTypes.array.isRequired,
+	data     : PropTypes.array.isRequired,
+	title    : PropTypes.string,
+	name     : PropTypes.string,
+	children : PropTypes.any,
 };
 
 export default React.memo(Typewriter);

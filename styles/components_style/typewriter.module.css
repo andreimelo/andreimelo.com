@@ -15,6 +15,7 @@
 
 .typewriter_wrapper {
   color: var(--my-primary-color);
+  margin-top: -50px;
 }
 
 #typewriter_cursor {
@@ -30,6 +31,10 @@
 
 @media only screen and (max-width: 768px) {
   .typewriter_desc {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+  }
+  .typewriter_wrapper {
+    color: var(--my-primary-color);
+    margin-top: 0;
   }
 }
