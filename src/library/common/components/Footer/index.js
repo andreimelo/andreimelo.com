@@ -44,6 +44,20 @@ function Footer(){
 							className={item}
 							source={IMAGES.TWITTER}
 						/>
+						<IconLink
+							href={'https://dev.to/andreimelo'}
+							target={'_blank'}
+							rel={'noopener noreferrer'}
+							className={item}
+							source={IMAGES.DEV}
+						/>
+						<IconLink
+							href={'https://www.instagram.com/dremelo_/'}
+							target={'_blank'}
+							rel={'noopener noreferrer'}
+							className={item}
+							source={IMAGES.INSTAGRAM}
+						/>
 					</div>
 				</div>
 			</footer>
