@@ -59,6 +59,13 @@ function Footer(){
 							className={item}
 							source={IMAGES.INSTAGRAM}
 						/>
+						<IconLink
+							href={'https://www.facebook.com/andrei.agno.melo'}
+							target={'_blank'}
+							rel={'noopener noreferrer'}
+							className={item}
+							source={IMAGES.FACEBOOK}
+						/>
 					</div>
 				</div>
 			</footer>
