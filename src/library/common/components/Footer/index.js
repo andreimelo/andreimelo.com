@@ -20,6 +20,7 @@ function Footer(){
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 							desc={STRINGS.BUILT_WITH_NEXTJS}
+							source='none'
 						/>
 					</div>
 					<div className={item_container}>
