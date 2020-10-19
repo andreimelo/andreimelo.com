@@ -16,7 +16,7 @@ function Footer(){
 				<div className={footer_container}>
 					<div className={item_made}>
 						<IconLink
-							href={'https://nextjs.org/'}
+							href={STRINGS.LINK.NEXTJS}
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 							desc={STRINGS.BUILT_WITH_NEXTJS}
@@ -25,42 +25,42 @@ function Footer(){
 					</div>
 					<div className={item_container}>
 						<IconLink
-							href={'https://github.com/andreimelo'}
+							href={STRINGS.LINK.GITHUB}
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 							className={item}
 							source={IMAGES.GITHUB}
 						/>
 						<IconLink
-							href={'https://www.linkedin.com/in/andrei-melo-4a4635191/'}
+							href={STRINGS.LINK.LINKEDIN}
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 							className={item}
 							source={IMAGES.LINKED_IN}
 						/>
 						<IconLink
-							href={'https://twitter.com/imdreimelo'}
+							href={STRINGS.LINK.TWITTER}
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 							className={item}
 							source={IMAGES.TWITTER}
 						/>
 						<IconLink
-							href={'https://dev.to/andreimelo'}
+							href={STRINGS.LINK.DEV}
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 							className={item}
 							source={IMAGES.DEV}
 						/>
 						<IconLink
-							href={'https://www.instagram.com/dremelo_/'}
+							href={STRINGS.LINK.INSTAGRAM}
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 							className={item}
 							source={IMAGES.INSTAGRAM}
 						/>
 						<IconLink
-							href={'https://www.facebook.com/andrei.agno.melo'}
+							href={STRINGS.LINK.FACEBOOK}
 							target={'_blank'}
 							rel={'noopener noreferrer'}
 							className={item}
