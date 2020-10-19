@@ -19,4 +19,13 @@ export const STRINGS = {
 		TITLE : 'Hi, Im',
 		NAME  : 'ANDREI MELO',
 	},
+	LINK              : {
+		NEXTJS    : 'https://nextjs.org/',
+		GITHUB    : 'https://github.com/andreimelo',
+		LINKEDIN  : 'https://www.linkedin.com/in/andrei-melo-4a4635191/',
+		TWITTER   : 'https://twitter.com/imdreimelo',
+		DEV       : 'https://dev.to/andreimelo',
+		INSTAGRAM : 'https://www.instagram.com/dremelo_/',
+		FACEBOOK  : 'https://www.facebook.com/andrei.agno.melo',
+	},
 };
