@@ -29,4 +29,12 @@ export const STRINGS = {
 		INSTAGRAM : 'https://www.instagram.com/dremelo_/',
 		FACEBOOK  : 'https://www.facebook.com/andrei.agno.melo',
 	},
+	WHATIDO:{
+		JAVASCRIPT:"Javascript",
+		JSCONTENT:"I love javascript because of its simplicity, speed and what it can bring to the table.",
+		FRONTEND:"Frontend",
+		FECONTENT:"Ability to create something amazing and love to work with ReactJS.",
+		DESIGNING:"Designing",
+		DSCONTENT:"I love to create something from scratch and make it beautiful."
+	}	
 };
