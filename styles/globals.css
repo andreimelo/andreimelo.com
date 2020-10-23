@@ -2,6 +2,7 @@
 
 :root {
   --my-primary-color: #0d102d;
+  --my-primary-color-with-opacity: rgba(13,16,45,0.2);
   --black-color: #000000;
   --white-color: #ffffff;
   --light-black-color: #3e4054;

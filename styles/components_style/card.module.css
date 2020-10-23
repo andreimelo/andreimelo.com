@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card_item{
+    margin: 10px;
+    flex: 1 1 200px;
+    max-width: 300px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    -moz-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 8px 4px var(--my-primary-color-with-opacity);
+    border-radius: 10px;
+}
+
