@@ -8,9 +8,12 @@ import { STRINGS } from '../../../common/constants/strings';
 import { IMAGES } from '../../constants/images';
 import { downloadPdf } from '../../../utils/pdf';
 import Button from '../Button';
+import Card from '../Card';
+import WhatIdo from '../WhatIdo';
 
 function Home(){
 	return (
+		<>
 		<section id={STRINGS.NAVIGATION_DATA[0]} className={home_wrapper}>
 			<Typewriter
 				title={STRINGS.TYPEWRITER.TITLE}
@@ -29,6 +32,8 @@ function Home(){
 				alt='codingIsometric'
 			/>
 		</section>
+		<WhatIdo/>
+		</>
 	);
 }
 
