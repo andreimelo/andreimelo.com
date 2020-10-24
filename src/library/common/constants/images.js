@@ -7,6 +7,9 @@ import codingIso from '../../../resources/images/coding_iso.svg';
 import dev from '../../../resources/images/dev_io.svg';
 import instragram from '../../../resources/images/insta_io.svg';
 import facebook from '../../../resources/images/facebook_io.svg';
+import frontend from '../../../resources/images/frontend_io.png';
+import design from '../../../resources/images/design_io.png';
+import javascript from '../../../resources/images/javascript_io.png';
 
 export const IMAGES = {
 	MY_LOGO      : myLogo,
@@ -19,4 +22,7 @@ export const IMAGES = {
 	DEV          : dev,
 	INSTAGRAM    : instragram,
 	FACEBOOK     : facebook,
+	FRONTEND     : frontend,
+	DESIGN       : design,
+	JAVASCRIPT   : javascript,
 };
