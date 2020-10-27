@@ -2,7 +2,6 @@ import React from 'react';
 import { card,card_item,card_icon } from '../../../../../styles/components_style/card.module.css';
 import { STRINGS } from '../../constants/strings';
 import { IMAGES } from '../../constants/images';
-// import PropTypes from  'prop-types';
 
 function Card(){
     return(
@@ -25,9 +24,5 @@ function Card(){
         </div>
     )
 }
-
-// Card.propTypes={
-
-// }
 
 export default React.memo(Card);
