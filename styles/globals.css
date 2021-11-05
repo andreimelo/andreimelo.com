@@ -2,14 +2,13 @@
 
 :root {
   --my-primary-color: #0d102d;
-  --my-primary-color-with-opacity: rgba(13,16,45,0.2);
+  --my-primary-color-with-opacity: rgba(13, 16, 45, 0.2);
   --black-color: #000000;
   --white-color: #ffffff;
   --light-black-color: #3e4054;
   --bg-color: #f7f9f7;
 
   /* font size */
-
   --font-small: 3vh;
   --font-medium: 4vh;
   --font-large: 12vh;
@@ -61,6 +60,6 @@ h2 {
   font-size: var(--font-medium);
 }
 
-h3{
-  margin:0;
+h3 {
+  margin: 0;
 }
