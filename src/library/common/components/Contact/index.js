@@ -1,5 +1,5 @@
-import { contact_wrapper } from '../../../../../styles/pages_style/contact.module.css';
-import { STRINGS } from '../../constants/strings';
+import { contact_wrapper } from 'styles/pages_style/contact.module.css';
+import { STRINGS } from 'src/library/common/constants/strings';
 
 function Contact(){
 	return (

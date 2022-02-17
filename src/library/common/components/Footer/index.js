@@ -4,10 +4,10 @@ import {
 	item_made,
 	item_container,
 	item,
-} from '../../../../../styles/components_style/footer.module.css';
-import IconLink from '../IconLink';
-import { STRINGS } from '../../constants/strings';
-import { IMAGES } from '../../constants/images';
+} from 'styles/components_style/footer.module.css';
+import IconLink from 'src/library/common/components/IconLink';
+import { STRINGS } from 'src/library/common/constants/strings';
+import { IMAGES } from 'src/library/common/constants/images';
 
 function Footer(){
 	return (

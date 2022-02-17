@@ -3,9 +3,9 @@ import {
 	about_article,
 	my_emoticon,
 	avatar,
-} from '../../../../../styles/pages_style/about.module.css';
-import { IMAGES } from '../../constants/images';
-import { STRINGS } from '../../constants/strings';
+} from 'styles/pages_style/about.module.css';
+import { IMAGES } from 'src/library/common/constants/images';
+import { STRINGS } from 'src/library/common/constants/strings';
 
 function AboutMe(){
 	return (
