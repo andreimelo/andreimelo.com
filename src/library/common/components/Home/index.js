@@ -1,4 +1,4 @@
-import Typewriter from '../Typewriter';
+import Typewriter from 'src/library/common/components/Typewriter';
 import {
 	home_wrapper,
 	coding_isometric,
