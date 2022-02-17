@@ -6,7 +6,7 @@ import {
 	typewriter_desc,
 	typewriter_wrapper,
 	typewriter_cursor,
-} from '../../../../../styles/components_style/typewriter.module.css';
+} from 'styles/components_style/typewriter.module.css';
 
 function Typewriter({ title, name, data, children }){
 	const [

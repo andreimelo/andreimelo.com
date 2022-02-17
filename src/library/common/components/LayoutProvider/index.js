@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { container } from './../../../../../styles/components_style/layoutprovider.module.css';
+import { container } from 'styles/components_style/layoutprovider.module.css';
 
 function LayoutProvider({ children }){
 	return <main className={container}>{children}</main>;

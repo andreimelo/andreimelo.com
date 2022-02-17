@@ -6,9 +6,9 @@ import {
 	mylogo,
 	nav_item_container,
 	nav_item,
-} from '../../../../../styles/components_style/navigation.module.css';
+} from 'styles/components_style/navigation.module.css';
 import { Link } from 'react-scroll';
-import { STRINGS } from '../../constants/strings';
+import { STRINGS } from 'src/library/common/constants/strings';
 
 function Navigation({ logo, data }){
 	return (

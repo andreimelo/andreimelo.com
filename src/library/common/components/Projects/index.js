@@ -1,5 +1,5 @@
-import { projects_wrapper } from '../../../../../styles/pages_style/projects.module.css';
-import { STRINGS } from '../../constants/strings';
+import { projects_wrapper } from 'styles/pages_style/projects.module.css';
+import { STRINGS } from 'src/library/common/constants/strings';
 
 function Projects(){
 	return (
