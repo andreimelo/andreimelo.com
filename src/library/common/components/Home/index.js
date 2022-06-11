@@ -6,7 +6,7 @@ import {
 } from 'styles/pages_style/home.module.css';
 import { STRINGS } from 'src/library/common/constants/strings';
 import { IMAGES } from 'src/library/common/constants/images';
-import { downloadPdf } from 'src/library/utils/pdf';
+import { downloadPdf } from 'src/library/helpers/pdf';
 import Button from 'src/library/common/components/Button';
 import WhatIdo from 'src/library/common/components/WhatIdo';
 
