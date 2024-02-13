@@ -5,12 +5,14 @@ module.exports = {
 			use  : {
 				loader  : 'url-loader',
 				options : {
-					limit : 100000,
-					name  : '[name].[ext]',
+					name : '[name].[ext]',
 				},
 			},
 		});
 		return config;
+	},
+	images        : {
+		disableStaticImages : true,
 	},
 	devIndicators : {
 		autoPrerender : false,
