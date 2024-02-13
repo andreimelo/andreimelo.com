@@ -3,6 +3,7 @@ import {
 	home_wrapper,
 	coding_isometric,
 	button_medium,
+	icon,
 } from 'styles/pages_style/home.module.css';
 import { STRINGS } from 'src/library/common/constants/strings';
 import { IMAGES } from 'src/library/common/constants/images';
@@ -20,8 +21,10 @@ function Home(){
 					data={STRINGS.TYPE_DATA}
 				>
 					<Button
-						title='Download Resume'
+						imgSrc={IMAGES['RESUME_WHITE']}
+						altImage={'buttonIcon'}
 						variant={button_medium}
+						imgClass={icon}
 						onClick={() => downloadPdf()}
 					/>
 				</Typewriter>

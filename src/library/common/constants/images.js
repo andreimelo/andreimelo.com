@@ -10,6 +10,7 @@ import facebook from 'src/resources/images/facebook_io.svg';
 import frontend from 'src/resources/images/frontend_io.png';
 import design from 'src/resources/images/design_io.png';
 import javascript from 'src/resources/images/javascript_io.png';
+import resumeWhite from 'src/resources/images/resume_white.svg';
 
 export const IMAGES = {
 	MY_LOGO      : myLogo,
@@ -25,4 +26,5 @@ export const IMAGES = {
 	FRONTEND     : frontend,
 	DESIGN       : design,
 	JAVASCRIPT   : javascript,
+	RESUME_WHITE : resumeWhite,
 };

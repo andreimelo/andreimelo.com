@@ -14,9 +14,12 @@
   width: 55vh;
 }
 
+.icon {
+  width: 30px;
+}
+
 .button_medium {
   margin: 30px auto;
-  width: 200px;
   border: none;
   cursor: pointer;
   padding: 10px;
@@ -24,11 +27,7 @@
   color: var(--white-color);
   height: auto;
   font-weight: var(--font-poppins-600);
-}
-
-.button_medium:hover {
-  background-color: var(--white-color);
-  color: var(--my-primary-color);
+  padding: 5px;
 }
 
 @media only screen and (max-width: 768px) {
