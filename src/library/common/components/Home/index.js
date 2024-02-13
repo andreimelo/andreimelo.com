@@ -20,7 +20,7 @@ function Home(){
 					data={STRINGS.TYPE_DATA}
 				>
 					<Button
-						title='Download Resume'
+						title='Resume'
 						variant={button_medium}
 						onClick={() => downloadPdf()}
 					/>

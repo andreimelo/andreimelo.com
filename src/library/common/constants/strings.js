@@ -3,15 +3,16 @@ export const STRINGS = {
 	NAVIGATION_DATA   : [
 		'Home',
 		'About me',
-		'What I do'
+		'What I do',
+		'Blog',
 	],
 	INTRO1            :
 		"Hi, I'm Andrei Melo, a dedicated Front-end developer from Philippines and graduated at De La Salle University – Dasmariñas with the degree of Bachelor of Science in Information Technology, I love to build website from modern web technologies. Specifically focusing on ReactJS for the time being and with minimal skills in designing.",
 	INTRO2            :
-		'I love coding, I am a person who loves to spend time coding, reading, prototyping, or learning new things that can improve quality of my development.',
+		'I am a person who loves to spend time coding, reading, prototyping, or learning new things that can improve quality of my development.',
 	TYPE_DATA         : [
 		'A FRONT-END DEVELOPER',
-		'A JAVASCRIPT DEVELOPER',
+		'A REACT DEVELOPER',
 		'WELCOME TO MY WEBSITE',
 		'CONTACT ME IF YOU WANT TO COLLAB! :x:x',
 	],
@@ -29,12 +30,13 @@ export const STRINGS = {
 		INSTAGRAM : 'https://www.instagram.com/dremelo_/',
 		FACEBOOK  : 'https://www.facebook.com/andrei.agno.melo',
 	},
-	WHATIDO:{
-		JAVASCRIPT:"Javascript",
-		JSCONTENT:"I love javascript because of its simplicity, speed and what it can bring to the table.",
-		FRONTEND:"Frontend",
-		FECONTENT:"Ability to create something amazing and love to work with ReactJS.",
-		DESIGNING:"Designing",
-		DSCONTENT:"I love to create something from scratch and make it beautiful."
-	}	
+	WHATIDO           : {
+		JAVASCRIPT : 'Javascript',
+		JSCONTENT  :
+			'I love javascript because of its simplicity, speed and what it can bring to the table.',
+		FRONTEND   : 'Frontend',
+		FECONTENT  : 'Ability to create something amazing and love to work with ReactJS.',
+		DESIGNING  : 'Designing',
+		DSCONTENT  : 'I love to create something from scratch and make it beautiful.',
+	},
 };
