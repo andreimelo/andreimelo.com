@@ -1,11 +1,10 @@
 
 <p align="center">
-  <a href="https://www.andreimelo.com/">
+  <a href="https://andreimelo.netlify.app/">
     <img alt="Gatsby" src="./src/resources/images/MyLogo.svg" width="100" />
     <h2 align="center">Andrei Melo</h2>
   </a>
 </p> 
-<p align="center">FrontEnd Web Developer</p>
 
 ![Andrei Melo Site Preview](./src/resources/images/home_io.png)
 
