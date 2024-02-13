@@ -23,7 +23,7 @@
   border: none;
   cursor: pointer;
   padding: 10px;
-  background-color: var(--my-primary-color);
+  /* background-color: var(--my-primary-color); */
   color: var(--white-color);
   height: auto;
   font-weight: var(--font-poppins-600);
