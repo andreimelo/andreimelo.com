@@ -37,4 +37,8 @@
     flex-direction: column;
     height: -moz-fit-content;
   }
+
+  .coding_isometric {
+    width: auto;
+  }
 }

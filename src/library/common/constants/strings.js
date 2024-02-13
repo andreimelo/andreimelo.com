@@ -2,9 +2,9 @@ export const STRINGS = {
 	TITLE             : 'Andrei Melo - Personal Website',
 	NAVIGATION_DATA   : [
 		'Home',
-		'About me',
 		'What I do',
-		'Blog',
+		'About me',
+		// 'Blog',
 	],
 	INTRO1            :
 		"Hi, I'm Andrei Melo, a dedicated Front-end developer from Philippines and graduated at De La Salle University – Dasmariñas with the degree of Bachelor of Science in Information Technology, I love to build website from modern web technologies. Specifically focusing on ReactJS for the time being and with minimal skills in designing.",

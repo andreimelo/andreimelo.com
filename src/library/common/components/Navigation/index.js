@@ -8,7 +8,6 @@ import {
 	nav_item,
 } from 'styles/components_style/navigation.module.css';
 import { Link } from 'react-scroll';
-import { STRINGS } from 'src/library/common/constants/strings';
 
 function Navigation({ logo, data }){
 	return (
@@ -17,15 +16,16 @@ function Navigation({ logo, data }){
 				<img className={mylogo} src={logo} alt='my Logo' />
 				<div className={nav_item_container}>
 					{data.map((item, i) => {
-					return item === STRINGS.NAVIGATION_DATA[2]?
-					   "" : 
-						<div key={i} className={nav_item}	>
-							<Link smooth offset={-70} hashSpy to={item}>
-								<a href={`#${item}`}>{item}</a>
-							</Link>
-						</div>
-					}
-				)}
+						return (
+							item && (
+								<div key={i} className={nav_item}>
+									<Link smooth offset={-70} hashSpy to={item}>
+										<a href={`#${item}`}>{item}</a>
+									</Link>
+								</div>
+							)
+						);
+					})}
 				</div>
 			</nav>
 		</div>

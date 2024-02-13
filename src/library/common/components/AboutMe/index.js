@@ -9,8 +9,8 @@ import { STRINGS } from 'src/library/common/constants/strings';
 
 function AboutMe(){
 	return (
-		<section id={STRINGS.NAVIGATION_DATA[1]} className={about_wrapper}>
-			<h2>{STRINGS.NAVIGATION_DATA[1]}</h2>
+		<section id={STRINGS.NAVIGATION_DATA[2]} className={about_wrapper}>
+			<h2>{STRINGS.NAVIGATION_DATA[2]}</h2>
 			<div className={avatar}>
 				<img src={IMAGES.IOS_EMOTICON} className={my_emoticon} alt='myEmoticon' />
 			</div>
