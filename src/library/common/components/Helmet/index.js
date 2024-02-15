@@ -19,4 +19,11 @@ Helmet.propTypes = {
 	description  : PropTypes.string,
 };
 
+Helmet.defaultProps = {
+	title        : '',
+	titleContent : '',
+	image        : '',
+	description  : '',
+};
+
 export default React.memo(Helmet);

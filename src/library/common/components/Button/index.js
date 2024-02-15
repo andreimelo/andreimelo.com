@@ -18,4 +18,13 @@ Button.propTypes = {
 	altImage : PropTypes.string,
 };
 
+Button.defaultProps = {
+	variant  : '',
+	title    : '',
+	onClick  : () => {},
+	imgClass : '',
+	imgSrc   : '',
+	altImage : '',
+};
+
 export default React.memo(Button);

@@ -21,4 +21,11 @@ IconLink.propTypes = {
 	rel       : PropTypes.string,
 };
 
+IconLink.defaultProps = {
+	className : '',
+	target    : '',
+	href      : '',
+	rel       : '',
+};
+
 export default React.memo(IconLink);
