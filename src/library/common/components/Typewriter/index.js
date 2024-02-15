@@ -81,4 +81,10 @@ Typewriter.propTypes = {
 	children : PropTypes.any,
 };
 
+Typewriter.defaultProps = {
+	data  : [],
+	title : '',
+	name  : '',
+};
+
 export default React.memo(Typewriter);

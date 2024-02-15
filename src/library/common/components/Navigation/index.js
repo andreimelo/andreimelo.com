@@ -37,4 +37,9 @@ Navigation.propTypes = {
 	data : PropTypes.array.isRequired,
 };
 
+Navigation.defaultProps = {
+	logo : '',
+	data : [],
+};
+
 export default React.memo(Navigation);
