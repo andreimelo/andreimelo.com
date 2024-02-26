@@ -27,7 +27,7 @@ export const STRINGS = {
 		LINKEDIN  : 'https://www.linkedin.com/in/andrei-melo-4a4635191/',
 		TWITTER   : 'https://twitter.com/imdreimelo',
 		DEV       : 'https://dev.to/andreimelo',
-		INSTAGRAM : 'https://www.instagram.com/dremelo_/',
+		INSTAGRAM : 'https://www.instagram.com/__andreimelo/',
 		FACEBOOK  : 'https://www.facebook.com/andrei.agno.melo',
 	},
 	WHATIDO           : {
