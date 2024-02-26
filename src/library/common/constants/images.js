@@ -21,6 +21,9 @@ import material from 'src/resources/images/tech/material.png';
 import redux from 'src/resources/images/tech/redux.png';
 import service from 'src/resources/images/tech/servicenow.png';
 import node from 'src/resources/images/tech/node.png';
+import netlify from 'src/resources/images/tech/netlify.png';
+import git from 'src/resources/images/tech/git.png';
+import storyBook from 'src/resources/images/tech/storybook.png';
 
 export const IMAGES = {
 	MY_LOGO      : myLogo,
@@ -47,4 +50,7 @@ export const IMAGES = {
 	REDUX        : redux,
 	SERVICE      : service,
 	NODE         : node,
+	NETLIFY      : netlify,
+	GIT          : git,
+	STORYBOOK    : storyBook,
 };
