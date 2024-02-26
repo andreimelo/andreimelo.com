@@ -2,7 +2,7 @@ export const STRINGS = {
 	TITLE             : 'Andrei Melo - Personal Website',
 	NAVIGATION_DATA   : [
 		'Home',
-		'What I do',
+		'Tech Stack',
 		'About me',
 		// 'Blog',
 	],
@@ -34,9 +34,5 @@ export const STRINGS = {
 		JAVASCRIPT : 'Javascript',
 		JSCONTENT  :
 			'I love javascript because of its simplicity, speed and what it can bring to the table.',
-		FRONTEND   : 'Frontend',
-		FECONTENT  : 'Ability to create something amazing and love to work with ReactJS.',
-		DESIGNING  : 'Designing',
-		DSCONTENT  : 'I love to create something from scratch and make it beautiful.',
 	},
 };

@@ -1,28 +1,30 @@
 import React from 'react';
 import { card, card_item, card_icon } from 'styles/components_style/card.module.css';
-import { STRINGS } from 'src/library/common/constants/strings';
-import { IMAGES } from 'src/library/common/constants/images';
+import PropTypes from 'prop-types';
 
-function Card(){
+function Card({ data }){
 	return (
 		<div className={card}>
-			<div className={card_item}>
-				<img src={IMAGES.JAVASCRIPT} className={card_icon} alt='whatIdoIcon' />
-				<h3>{STRINGS.WHATIDO.JAVASCRIPT}</h3>
-				<span>{STRINGS.WHATIDO.JSCONTENT}</span>
-			</div>
-			<div className={card_item}>
-				<img src={IMAGES.FRONTEND} className={card_icon} alt='whatIdoIcon' />
-				<h3>{STRINGS.WHATIDO.FRONTEND}</h3>
-				<span>{STRINGS.WHATIDO.FECONTENT}</span>
-			</div>
-			<div className={card_item}>
-				<img src={IMAGES.DESIGN} className={card_icon} alt='whatIdoIcon' />
-				<h3>{STRINGS.WHATIDO.DESIGNING}</h3>
-				<span>{STRINGS.WHATIDO.DSCONTENT}</span>
-			</div>
+			{data &&
+				data.map((item) => (
+					<div key={item.id} className={card_item}>
+						<img
+							src={item.image}
+							className={card_icon}
+							alt={`techStack${item.name}`}
+						/>
+					</div>
+				))}
 		</div>
 	);
 }
 
-export default React.memo(Card);
+Card.propTypes = {
+	data : PropTypes.array,
+};
+
+Card.defaultProps = {
+	data : [],
+};
+
+export default Card;
