@@ -7,10 +7,20 @@ import codingIso from 'src/resources/images/coding_iso.svg';
 import dev from 'src/resources/images/dev_io.svg';
 import instragram from 'src/resources/images/insta_io.svg';
 import facebook from 'src/resources/images/facebook_io.svg';
-import frontend from 'src/resources/images/frontend_io.png';
-import design from 'src/resources/images/design_io.png';
-import javascript from 'src/resources/images/javascript_io.png';
 import resumeWhite from 'src/resources/images/resume_white.svg';
+// tech
+import react from 'src/resources/images/tech/react.png';
+import gatsby from 'src/resources/images/tech/gastby.png';
+import next from 'src/resources/images/tech/nextjs.png';
+import bootstrap from 'src/resources/images/tech/bootstrap.png';
+import apollo from 'src/resources/images/tech/apollo.png';
+import css from 'src/resources/images/tech/css.png';
+import html from 'src/resources/images/tech/html.png';
+import javascript from 'src/resources/images/tech/javascript.png';
+import material from 'src/resources/images/tech/material.png';
+import redux from 'src/resources/images/tech/redux.png';
+import service from 'src/resources/images/tech/servicenow.png';
+import node from 'src/resources/images/tech/node.png';
 
 export const IMAGES = {
 	MY_LOGO      : myLogo,
@@ -23,8 +33,18 @@ export const IMAGES = {
 	DEV          : dev,
 	INSTAGRAM    : instragram,
 	FACEBOOK     : facebook,
-	FRONTEND     : frontend,
-	DESIGN       : design,
-	JAVASCRIPT   : javascript,
 	RESUME_WHITE : resumeWhite,
+	//
+	REACT        : react,
+	GATSBY       : gatsby,
+	NEXT         : next,
+	BOOTSTRAP    : bootstrap,
+	APOLLO       : apollo,
+	CSS          : css,
+	HTML         : html,
+	JAVASCRIPT   : javascript,
+	MATERIAL     : material,
+	REDUX        : redux,
+	SERVICE      : service,
+	NODE         : node,
 };
