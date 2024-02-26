@@ -61,4 +61,19 @@ export const techStackImageData = [
 		image : IMAGES['NODE'],
 		name  : 'NodeJs',
 	},
+	{
+		id    : '13',
+		image : IMAGES['NETLIFY'],
+		name  : 'Netlify',
+	},
+	{
+		id    : '14',
+		image : IMAGES['GIT'],
+		name  : 'Git',
+	},
+	{
+		id    : '15',
+		image : IMAGES['STORYBOOK'],
+		name  : 'StoryBook',
+	},
 ];
