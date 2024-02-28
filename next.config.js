@@ -18,4 +18,5 @@ module.exports = {
 		autoPrerender : false,
 	},
 	output        : 'export',
+	unoptimized   : true,
 };
