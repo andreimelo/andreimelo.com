@@ -17,4 +17,5 @@ module.exports = {
 	devIndicators : {
 		autoPrerender : false,
 	},
+	output        : 'export',
 };
