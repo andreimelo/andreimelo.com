@@ -53,7 +53,7 @@ h1 {
 }
 
 p {
-  font-size: clamp(10px, 4vw, 20px);
+  /* font-size: clamp(10px, 4vw, 20px); */
   text-align: justify;
   color: var(--my-primary-color);
 }

@@ -1,5 +1,6 @@
 export const STRINGS = {
 	TITLE             : 'Andrei Melo - Personal Website',
+	BLOG              : 'Andrei Melo - Blog',
 	NAVIGATION_DATA   : [
 		'Home',
 		'Tech Stack',
