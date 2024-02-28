@@ -47,9 +47,9 @@ function Navigation({ logo, data }){
 								)
 							);
 						})}
-					<div className={nav_item}>
+					{/* <div className={nav_item}>
 						<NextLink href='/posts'>Blog </NextLink>
-					</div>
+					</div> */}
 				</div>
 			</nav>
 		</div>
