@@ -1,0 +1,8 @@
+.post_container {
+  width: 400px;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-between;
+}

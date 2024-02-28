@@ -13,10 +13,9 @@ module.exports = {
 	},
 	images        : {
 		disableStaticImages : true,
+		unoptimized         : true,
 	},
 	devIndicators : {
 		autoPrerender : false,
 	},
-	cssModules    : true,
-	target        : 'serverless',
 };

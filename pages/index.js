@@ -1,6 +1,5 @@
+import React from 'react';
 import Helmet from 'src/library/common/components/Helmet';
-import LayoutProvider from 'src/library/common/components/LayoutProvider';
-import Navigation from 'src/library/common/components/Navigation';
 import Home from 'src/library/common/components/Home';
 import AboutMe from 'src/library/common/components/AboutMe';
 // import Projects from '../src/library/common/components/Projects';
@@ -12,24 +11,20 @@ import { IMAGES } from 'src/library/common/constants/images';
 
 function IndexPage(){
 	return (
-		<React.Fragment>
+		<div>
 			<Helmet
 				title={STRINGS.TITLE}
 				titleContent={STRINGS.TITLE}
 				image={IMAGES.UNSPLASH_BAG}
 				description={STRINGS.INTRO2}
 			/>
-			<Navigation logo={IMAGES.MY_LOGO} data={STRINGS.NAVIGATION_DATA} />
-			<LayoutProvider>
-				<Home />
-				<TechStack />
-				<AboutMe />
-
-				{/* <Projects/>
+			<Home />
+			<TechStack />
+			<AboutMe />
+			{/* <Projects/>
 				<Contact/> */}
-			</LayoutProvider>
 			<Footer />
-		</React.Fragment>
+		</div>
 	);
 }
 
