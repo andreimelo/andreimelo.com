@@ -20,5 +20,8 @@ module.exports = {
 	output        : 'export',
 	images        : {
 		unoptimized : true,
+		formats     : [
+			'image/webp',
+		],
 	},
 };
