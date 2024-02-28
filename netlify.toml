@@ -1,9 +1,11 @@
 [build]
   command   = "yarn deploy"
-  publish   = "out"
+  publish   = "build"
   
-[[plugins]]
+[plugins]
   package = "@netlify/plugin-nextjs"
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  CONTENTFUL_SPACE_ID = '57bm5fw318lt'
+  CONTENTFUL_ACCESS_TOKEN = 'UAJTc4ZIjsEqg9WiVdoSIzimcpT5RbDrIxN3lk0WaC4'
