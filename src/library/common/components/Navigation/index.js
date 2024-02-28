@@ -13,7 +13,9 @@ import { useRouter } from 'next/router';
 
 function Navigation({ logo, data }){
 	const router = useRouter();
-	const isBlogPostsPath = router.pathname === '/posts';
+	const isBlogPostsPath =
+		router.pathname === '/posts' || router.pathname.includes('/posts');
+
 	return (
 		<div className={nav_wrapper}>
 			<nav className={nav_container}>
@@ -47,9 +49,9 @@ function Navigation({ logo, data }){
 								)
 							);
 						})}
-					{/* <div className={nav_item}>
+					<div className={nav_item}>
 						<NextLink href='/posts'>Blog </NextLink>
-					</div> */}
+					</div>
 				</div>
 			</nav>
 		</div>
