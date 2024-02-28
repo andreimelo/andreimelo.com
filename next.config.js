@@ -13,15 +13,13 @@ module.exports = {
 	},
 	images        : {
 		disableStaticImages : true,
+		unoptimized         : true,
+		formats             : [
+			'image/webp',
+		],
 	},
 	devIndicators : {
 		autoPrerender : false,
 	},
 	output        : 'export',
-	images        : {
-		unoptimized : true,
-		formats     : [
-			'image/webp',
-		],
-	},
 };
