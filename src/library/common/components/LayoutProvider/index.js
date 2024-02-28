@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import { container } from 'styles/components_style/layoutprovider.module.css';
 

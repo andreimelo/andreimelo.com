@@ -1,3 +1,4 @@
+import React from 'react';
 import Typewriter from 'src/library/common/components/Typewriter';
 import {
 	home_wrapper,
@@ -12,7 +13,7 @@ import Button from 'src/library/common/components/Button';
 
 function Home(){
 	return (
-		<React.Fragment>
+		<div>
 			<section id={STRINGS.NAVIGATION_DATA[0]} className={home_wrapper}>
 				<Typewriter
 					title={STRINGS.TYPEWRITER.TITLE}
@@ -33,7 +34,7 @@ function Home(){
 					alt='codingIsometric'
 				/>
 			</section>
-		</React.Fragment>
+		</div>
 	);
 }
 

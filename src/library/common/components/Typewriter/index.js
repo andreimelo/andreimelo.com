@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -60,17 +61,15 @@ function Typewriter({ title, name, data, children }){
 		}
 	}
 	return (
-		<React.Fragment>
-			<div className={typewriter_wrapper}>
-				<div className={typewriter_title}>{title}</div>
-				<div className={typewriter_name}>{name}</div>
-				<div className={typewriter_desc}>
-					{text}
-					<span id={typewriter_cursor} />
-				</div>
-				{children}
+		<div className={typewriter_wrapper}>
+			<div className={typewriter_title}>{title}</div>
+			<div className={typewriter_name}>{name}</div>
+			<div className={typewriter_desc}>
+				{text}
+				<span id={typewriter_cursor} />
 			</div>
-		</React.Fragment>
+			{children}
+		</div>
 	);
 }
 

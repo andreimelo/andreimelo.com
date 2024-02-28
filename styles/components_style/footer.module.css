@@ -1,21 +1,20 @@
 .footer_wrapper {
-  height: 8vh;
   width: 100%;
-  padding: 10px;
   /* background:#0d102d; */
 }
 
 .footer_container {
-  margin: auto;
-  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0px 0px 0px;
 }
 
 .item_made {
-  float: left;
+  /* float: left; */
 }
 
 .item_container {
-  float: right;
+  /* float: right; */
 }
 
 .item {

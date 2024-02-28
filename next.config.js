@@ -1,4 +1,8 @@
 module.exports = {
+	output        : {
+		directory : 'out',
+	},
+	distDir       : 'build',
 	webpack       : function(config){
 		config.module.rules.push({
 			test : /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)$/,
@@ -13,10 +17,12 @@ module.exports = {
 	},
 	images        : {
 		disableStaticImages : true,
+		unoptimized         : true,
+		formats             : [
+			'image/webp',
+		],
 	},
 	devIndicators : {
 		autoPrerender : false,
 	},
-	cssModules    : true,
-	target        : 'serverless',
 };

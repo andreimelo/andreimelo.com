@@ -6,16 +6,17 @@
 		"dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
 		"build": "export NODE_OPTIONS=--openssl-legacy-provider && next build",
 		"start": "export NODE_OPTIONS=--openssl-legacy-provider && next build && next start",
-		"export": "next export",
-		"deploy": "yarn run build && yarn run export"
+		"deploy": "yarn run build"
 	},
 	"dependencies": {
+		"@contentful/rich-text-react-renderer": "^15.19.4",
 		"@netlify/plugin-nextjs": "^4.41.3",
 		"@zeit/next-css": "^1.0.1",
-		"next": "10.2.0",
+		"contentful": "^10.6.22",
+		"next": "^14.1.0",
 		"prop-types": "^15.7.2",
-		"react": "16.13.1",
-		"react-dom": "16.13.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
 		"react-scripts": "^5.0.1",
 		"react-scroll": "^1.7.12"
 	},
