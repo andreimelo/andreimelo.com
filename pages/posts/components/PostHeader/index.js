@@ -3,6 +3,7 @@ import ContentfulImage from 'pages/posts/components/ContentfulImage';
 import DateComponent from '../Date';
 
 const PostHeader = ({ post }) => {
+	if (!post) return;
 	const { title, picture, date } = post.fields;
 	const image = picture;
 	return (

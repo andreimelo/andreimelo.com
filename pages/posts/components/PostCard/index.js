@@ -2,12 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import ContentfulImage from 'pages/posts/components/ContentfulImage';
 import DateComponent from '../Date';
-import {
-	post_container,
-	title_container,
-} from 'styles/components_style/postcard.module.css';
+import { post_container, container } from 'styles/components_style/postcard.module.css';
 
 const PostCard = ({ key, post }) => {
+	if (!post) return;
 	const { title, slug, excerpt, picture, date } = post.fields;
 	const image = picture;
 	return (
@@ -23,7 +21,7 @@ const PostCard = ({ key, post }) => {
 						layout='responsive'
 						blurDataURL={image.fields.file.url}
 					/>
-					<div className={title_container}>
+					<div className={container}>
 						<h3>{title}</h3>
 						<DateComponent dateString={date} />
 					</div>
