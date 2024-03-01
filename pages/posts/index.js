@@ -12,7 +12,7 @@ const Post = ({ posts }) => {
 			<div className='container'>
 				<ul className={container}>
 					{posts.map((post, i) => (
-						<PostCard key={post.fields.slug} post={post} />
+						<PostCard keyPost={post.fields.slug} post={post} />
 					))}
 				</ul>
 			</div>
