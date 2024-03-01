@@ -4,12 +4,12 @@ import ContentfulImage from 'pages/posts/components/ContentfulImage';
 import DateComponent from '../Date';
 import { post_container, container } from 'styles/components_style/postcard.module.css';
 
-const PostCard = ({ key, post }) => {
+const PostCard = ({ keyPost, post }) => {
 	if (!post) return;
 	const { title, slug, excerpt, picture, date } = post.fields;
 	const image = picture;
 	return (
-		<div className={post_container}>
+		<div key={keyPost} className={post_container}>
 			<Link href={`/posts/${slug}`}>
 				<div>
 					<ContentfulImage
