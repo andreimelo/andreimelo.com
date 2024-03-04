@@ -3,10 +3,12 @@ import { client } from 'src/library/contentful/client';
 import { useRouter } from 'next/router';
 import PostHeader from './components/PostHeader';
 import PostBody from './components/PostBody';
+import Helmet from 'src/library/common/components/Helmet';
+import { STRINGS } from 'src/library/common/constants/strings';
 
 const Post = ({ post, preview }) => {
 	const router = useRouter();
-
+	const { title, excerpt, picture } = post.fields;
 	return (
 		<section className='section'>
 			{preview && <div>Preview Alert</div>}
@@ -15,6 +17,12 @@ const Post = ({ post, preview }) => {
 					{
 						router.isFallback ? <div>Loading....</div> :
 						<div>
+							<Helmet
+								title={STRINGS.BLOG}
+								titleContent={title}
+								image={picture.fields.file.url}
+								description={excerpt}
+							/>
 							<PostHeader post={post} />
 							<PostBody post={post} />
 						</div>}
