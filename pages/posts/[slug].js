@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 import PostHeader from './components/PostHeader';
 import PostBody from './components/PostBody';
 import Helmet from '../../src/library/common/components/Helmet';
-import { STRINGS } from '../../src/library/common/constants/strings';
 
 const Post = ({ post, preview }) => {
 	const router = useRouter();
@@ -19,8 +18,7 @@ const Post = ({ post, preview }) => {
 						router.isFallback ? <div>Loading....</div> :
 						<div>
 							<Helmet
-								title={STRINGS.BLOG}
-								titleContent={title}
+								title={title}
 								image={picture.fields.file.url}
 								description={excerpt}
 							/>
