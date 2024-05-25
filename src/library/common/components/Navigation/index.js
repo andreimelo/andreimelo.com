@@ -118,7 +118,6 @@ function Navigation({ logo, data }){
 							data.map((item, i) => {
 								return (
 									item && (
-										//class
 										<div key={i} className={nav_item_mobile}>
 											<NextLink href={`/`} onClick={handleNavState}>
 												{item}
@@ -127,7 +126,6 @@ function Navigation({ logo, data }){
 									)
 								);
 							})}
-						{/* class */}
 						<NextLink
 							href='/posts'
 							className={nav_item_mobile}
