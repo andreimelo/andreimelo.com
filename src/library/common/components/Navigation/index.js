@@ -133,7 +133,6 @@ function Navigation({ logo, data }){
 						>
 							Blog
 						</NextLink>
-						{console.log(openNav, 'pepe')}
 					</div> :
 					''}
 			</nav>
