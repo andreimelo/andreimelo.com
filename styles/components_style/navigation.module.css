@@ -23,20 +23,20 @@
 }
 
 .mylogo {
-  float: left;
-  width: 80px;
-  -webkit-animation-name: floating;
-  animation-name: floating;
-  -webkit-animation-duration: 3s;
+  /* float: left; */
+  width: 60px;
+  /* -webkit-animation-name: floating;
+  animation-name: floating; */
+  /* -webkit-animation-duration: 3s;
   animation-duration: 3s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
 }
 
 .nav_item_container {
-  float: right;
+  /* float: right; */
   /* border:solid var(--black-color) 3px; */
 }
 
@@ -46,7 +46,7 @@
   font-size: 18px;
   color: var(--my-primary-color);
   cursor: pointer;
-  font-weight: 600;
+  font-weight: var(--font-poppins-600);
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -66,7 +66,7 @@
   background-size: 100% 15%;
 }
 
-@-webkit-keyframes floating {
+/* @-webkit-keyframes floating {
   0% {
     -webkit-transform: translate(0);
     transform: translate(0);
@@ -81,9 +81,9 @@
     -webkit-transform: translate(0);
     transform: translate(0);
   }
-}
+} */
 
-@keyframes floating {
+/* @keyframes floating {
   0% {
     -webkit-transform: translate(0);
     transform: translate(0);
@@ -98,7 +98,7 @@
     -webkit-transform: translate(0);
     transform: translate(0);
   }
-}
+} */
 
 .nav_item_container_mobile,
 .nav_menu_mobile,
