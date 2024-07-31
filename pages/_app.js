@@ -11,6 +11,7 @@ import { progressBar } from 'styles/pages_style/framer.module.css';
 function MyApp({ Component, pageProps }){
 	const { scrollYProgress } = useScroll();
 	return (
+		// rf
 		<React.Fragment>
 			<LayoutProvider>
 				<motion.div className={progressBar} style={{ scaleX: scrollYProgress }} />
