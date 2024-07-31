@@ -1,3 +1,4 @@
+import React from 'react';
 import 'styles/globals.css';
 import { motion, useScroll } from 'framer-motion';
 import LayoutProvider from 'src/library/common/components/LayoutProvider';
@@ -10,12 +11,15 @@ import { progressBar } from 'styles/pages_style/framer.module.css';
 function MyApp({ Component, pageProps }){
 	const { scrollYProgress } = useScroll();
 	return (
-		<LayoutProvider>
-			<motion.div className={progressBar} style={{ scaleX: scrollYProgress }} />
-			<Navigation logo={IMAGES.MY_LOGO} data={STRINGS.NAVIGATION_DATA} />
-			<Component {...pageProps} />
+		// rf
+		<React.Fragment>
+			<LayoutProvider>
+				<motion.div className={progressBar} style={{ scaleX: scrollYProgress }} />
+				<Navigation logo={IMAGES.MY_LOGO} data={STRINGS.NAVIGATION_DATA} />
+				<Component {...pageProps} />
+			</LayoutProvider>
 			<Footer />
-		</LayoutProvider>
+		</React.Fragment>
 	);
 }
 

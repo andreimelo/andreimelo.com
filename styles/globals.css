@@ -71,3 +71,9 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+hr {
+  border: 0; /* Remove default border */
+  height: 1px; /* Set height for the hr element */
+  background-color: lightgray;
+}

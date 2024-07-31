@@ -11,6 +11,7 @@ import { IMAGES } from 'src/library/common/constants/images';
 function Footer(){
 	return (
 		<footer className={footer_wrapper}>
+			<hr />
 			<div className={footer_container}>
 				<div>
 					<IconLink
