@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.about_description {
+  line-height: 1.8;
+}
+
 .avatar {
   width: 230px;
   height: 230px;
