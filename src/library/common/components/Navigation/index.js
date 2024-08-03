@@ -40,7 +40,9 @@ function Navigation({ logo, data }){
 	return (
 		<div className={nav_wrapper}>
 			<nav className={nav_container}>
-				<img className={mylogo} src={logo} alt='my Logo' />
+				<NextLink href={`/`}>
+					<img className={mylogo} src={logo} alt='my Logo' />
+				</NextLink>
 				<div className={nav_item_container}>
 					{!isBlogPostsPath &&
 						data.map((item, i) => {

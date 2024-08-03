@@ -27,10 +27,8 @@ const PostCard = ({ keyPost, post }) => {
 						blurDataURL={image.fields.file.url}
 					/> */}
 					<div className={title_container}>{title}</div>
-					<div>
-						<DateComponent className={default_date} dateString={date} />
-						<div className={details}>{excerpt}</div>
-					</div>
+					<DateComponent className={default_date} dateString={date} />
+					<div className={details}>{excerpt}</div>
 				</div>
 			</Link>
 		</div>

@@ -1,12 +1,13 @@
 import React from 'react';
 import RichText from 'src/library/common/components/RichText';
+import { post_body_container } from '../../../../styles/components_style/postbody.module.css';
 
 const PostBody = ({ post }) => {
 	if (!post) return;
 	const { content } = post.fields;
 
 	return (
-		<div>
+		<div className={post_body_container}>
 			<RichText content={content} />
 		</div>
 	);
