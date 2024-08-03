@@ -8,11 +8,20 @@ function Card({ data }){
 			{data &&
 				data.map((item) => (
 					<div key={item.id} className={card_item}>
-						<img
-							src={item.image}
-							className={card_icon}
-							alt={`techStack${item.name}`}
-						/>
+						{item &&
+						item.link && (
+							<a
+								href={item.link}
+								target={'_blank'}
+								rel='noopener noreferrer'
+							>
+								<img
+									src={item.image}
+									className={card_icon}
+									alt={`techStack${item.name}`}
+								/>
+							</a>
+						)}
 					</div>
 				))}
 		</div>
