@@ -1,0 +1,20 @@
+.post_image_container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.post_image_bg {
+  padding-top: 7px;
+  background: var(--x-light-gray);
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .post_image_container {
+    width: 100%;
+  }
+  .post_image_bg {
+    background: none;
+  }
+}
