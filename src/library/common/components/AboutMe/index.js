@@ -3,6 +3,7 @@ import {
 	about_article,
 	my_emoticon,
 	avatar,
+	about_description,
 } from 'styles/pages_style/about.module.css';
 import { IMAGES } from 'src/library/common/constants/images';
 import { STRINGS } from 'src/library/common/constants/strings';
@@ -15,7 +16,7 @@ function AboutMe(){
 				<img src={IMAGES.IOS_EMOTICON} className={my_emoticon} alt='myEmoticon' />
 			</div>
 			<article className={about_article}>
-				<p>
+				<p className={about_description}>
 					{STRINGS.INTRO1} {STRINGS.INTRO2}
 				</p>
 			</article>

@@ -13,7 +13,7 @@ function IndexPage(){
 				title={STRINGS.TITLE}
 				titleContent={STRINGS.TITLE}
 				image={IMAGES.UNSPLASH_BAG}
-				description={STRINGS.INTRO2}
+				description={STRINGS.META_DESCRIPTION}
 			/>
 			<Home />
 			<TechStack />
