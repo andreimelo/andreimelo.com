@@ -2,6 +2,7 @@ import React from 'react';
 import {
 	footer_wrapper,
 	footer_container,
+	footer_row,
 	item,
 } from 'styles/components_style/footer.module.css';
 import IconLink from 'src/library/common/components/IconLink';
@@ -13,7 +14,8 @@ function Footer(){
 		<footer className={footer_wrapper}>
 			<hr />
 			<div className={footer_container}>
-				<div>
+				<div className={footer_row}>{STRINGS['COPYRIGHT']}</div>
+				<div className={footer_row}>
 					<IconLink
 						href={STRINGS.LINK.NEXTJS}
 						target={'_blank'}
@@ -22,7 +24,7 @@ function Footer(){
 						source='none'
 					/>
 				</div>
-				<div>
+				<div className={footer_row}>
 					<IconLink
 						href={STRINGS.LINK.GITHUB}
 						target={'_blank'}

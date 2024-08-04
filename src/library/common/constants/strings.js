@@ -37,4 +37,5 @@ export const STRINGS = {
 		JSCONTENT  :
 			'I love javascript because of its simplicity, speed and what it can bring to the table.',
 	},
+	COPYRIGHT         : '© 2024 Andrei Melo.',
 };

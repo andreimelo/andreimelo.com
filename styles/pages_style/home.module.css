@@ -14,20 +14,24 @@
   width: 55vh;
 }
 
-.icon {
+/* .icon {
   width: 30px;
-}
+} */
 
 .button_medium {
   margin: 30px auto;
   border: none;
   cursor: pointer;
   padding: 10px;
-  /* background-color: var(--my-primary-color); */
+  background-color: var(--my-primary-color);
   color: var(--white-color);
   height: auto;
   font-weight: var(--font-poppins-600);
-  padding: 5px;
+}
+
+.button_medium:hover {
+  background-color: var(--bg-color);
+  color: var(--my-primary-color);
 }
 
 @media only screen and (max-width: 768px) {
@@ -37,7 +41,6 @@
     flex-direction: column;
     height: -moz-fit-content;
   }
-
   .coding_isometric {
     width: auto;
   }
