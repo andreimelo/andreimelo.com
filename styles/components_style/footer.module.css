@@ -55,4 +55,8 @@
     flex-direction: column;
     text-align: center;
   }
+
+  .footer_row {
+    margin-bottom: 20px;
+  }
 }
