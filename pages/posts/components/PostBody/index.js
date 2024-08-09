@@ -5,10 +5,9 @@ import { post_body_container } from '../../../../styles/components_style/postbod
 const PostBody = ({ post }) => {
 	if (!post) return;
 	const { content } = post.fields;
-
 	return (
 		<div className={post_body_container}>
-			<RichText content={content} />
+			{content && <RichText content={content} />}
 		</div>
 	);
 };

@@ -8,7 +8,7 @@ import Helmet from '../../src/library/common/components/Helmet';
 const Post = ({ post, preview }) => {
 	const router = useRouter();
 	if (!post) return;
-	const { title, excerpt, picture } = post.fields;
+	const { title, description, picture } = post.fields;
 	return (
 		<section className='section'>
 			{preview && <div>Preview Alert</div>}
@@ -20,7 +20,7 @@ const Post = ({ post, preview }) => {
 							<Helmet
 								title={title}
 								image={picture.fields.file.url}
-								description={excerpt}
+								description={description}
 							/>
 							<PostHeader post={post} />
 							<PostBody post={post} />

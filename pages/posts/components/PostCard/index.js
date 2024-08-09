@@ -11,7 +11,7 @@ import {
 
 const PostCard = ({ keyPost, post }) => {
 	if (!post) return;
-	const { title, slug, excerpt, date } = post.fields;
+	const { title, slug, description, date } = post.fields;
 	// const image = picture;
 	return (
 		<div key={keyPost} className={post_container}>
@@ -28,7 +28,7 @@ const PostCard = ({ keyPost, post }) => {
 					/> */}
 					<div className={title_container}>{title}</div>
 					<DateComponent className={default_date} dateString={date} />
-					<div className={details}>{excerpt}</div>
+					<div className={details}>{description}</div>
 				</div>
 			</Link>
 		</div>
