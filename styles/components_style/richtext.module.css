@@ -1,0 +1,12 @@
+.code_editor {
+  background-color: #2d2d2d; /* Dark background for the code editor */
+  color: #f8f8f2; /* Light text color */
+  padding: 20px; /* Padding around the code */
+  border-radius: 4px; /* Rounded corners */
+  font-family: "Fira Code", monospace; /* Monospace font for code */
+  font-size: 14px; /* Set the font size */
+  white-space: pre-wrap; /* Preserve whitespace and line breaks */
+  display: block; /* Make the code block fill the width */
+  overflow-x: auto; /* Enable horizontal scrolling for long lines */
+  margin: 8px 0; /* Space around the code block */
+}
