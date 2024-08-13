@@ -43,7 +43,7 @@
 .nav_item {
   display: inline-block;
   margin: 20px;
-  font-size: 18px;
+  font-size: var(--font-px-medium);
   color: var(--my-primary-color);
   cursor: pointer;
   font-weight: var(--font-poppins-600);
