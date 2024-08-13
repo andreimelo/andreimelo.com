@@ -17,7 +17,12 @@
   --font-medium: 4vh;
   --font-large: 12vh;
 
-  /*font typo */
+  --font-px-xsmall: 14px;
+  --font-px-small: 16px;
+  --font-px-medium: 18px;
+  --font-px-xxlarge: 30px;
+
+  /*font weight */
   --font-poppins-400: 400;
   --font-poppins-600: 600;
   --font-poppins-800: 800;

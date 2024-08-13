@@ -1,0 +1,11 @@
+.load_more_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.load_more_button {
+  cursor: pointer;
+  font-size: var(--font-px-medium);
+  padding: 10px;
+}

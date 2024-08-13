@@ -2,6 +2,9 @@ export const STRINGS = {
 	TITLE             : 'Andrei Melo',
 	BLOG              : 'Andrei Melo - Blog',
 	META_DESCRIPTION  : 'A personal website by Andrei M. 🚀',
+	BUTTON            : {
+		LOAD_MORE : 'Load More',
+	},
 	NAVIGATION_DATA   : [
 		'Home',
 		'Tech Stack',
