@@ -43,6 +43,7 @@ function Navigation({ logo, data }){
 				<NextLink href={`/`}>
 					<img className={mylogo} src={logo} alt='my Logo' />
 				</NextLink>
+				{/* Web Nav */}
 				<div className={nav_item_container}>
 					{!isBlogPostsPath &&
 						data.map((item, i) => {
@@ -76,7 +77,7 @@ function Navigation({ logo, data }){
 						<NextLink href='/posts'>Blog </NextLink>
 					</div>
 				</div>
-
+				{/* Mobile Nav */}
 				<div
 					className={`${nav_item_container_mobile} ${
 						openNav ? open :
