@@ -1,3 +1,3 @@
 export function downloadPdf(){
-	return (window.location.href = 'https://black-edi-57.tiiny.site');
+	return window.open('pdf/resume.pdf', '_blank', 'noopener,noreferrer');
 }

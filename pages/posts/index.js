@@ -25,17 +25,11 @@ const Post = ({ posts }) => {
 		setDisplayPosts(displayPosts + loadMorePostList);
 	};
 	return (
-		<section className='section'>
+		<article className='section'>
 			<Helmet title={STRINGS.BLOG} />
-			<article>
-				<ul>
-					{articles
-						.slice(0, displayPosts)
-						.map((post, i) => (
-							<PostCard keyPost={post.fields.slug} post={post} />
-						))}
-				</ul>
-			</article>
+			{articles
+				.slice(0, displayPosts)
+				.map((post, i) => <PostCard keyPost={post.fields.slug} post={post} />)}
 			{
 				displayPosts < articles.length ? <div className={load_more_container}>
 					<Button
@@ -45,7 +39,7 @@ const Post = ({ posts }) => {
 					/>
 				</div> :
 				null}
-		</section>
+		</article>
 	);
 };
 
