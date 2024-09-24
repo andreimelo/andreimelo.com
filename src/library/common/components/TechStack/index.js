@@ -6,8 +6,8 @@ import { techStackImageData } from '../../constants/tech';
 function TechStack(){
 	return (
 		<section id={STRINGS.NAVIGATION_DATA[1]}>
-			<h2>{STRINGS.NAVIGATION_DATA[1]}</h2>
 			<hr />
+			<h2>{STRINGS.NAVIGATION_DATA[1]}</h2>
 			<Card data={techStackImageData} />
 			<hr />
 		</section>
