@@ -33,7 +33,6 @@ function AboutMe(){
 					/>
 				</div>
 			</motion.div>
-
 			<article className={about_article}>
 				<p className={about_description}>
 					{STRINGS.INTRO1} {STRINGS.INTRO2}
